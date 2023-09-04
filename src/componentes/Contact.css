@@ -1,0 +1,33 @@
+/* Contact.css */
+#contact h2{
+    color: white;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los iconos de las redes sociales */
+  }
+  
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c41f2a; /* Rojo oscuro */
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #c41f2a; /* Borde rojo oscuro */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-button:hover {
+    background-color: #fff; /* Fondo blanco al pasar el ratón */
+    color: #c41f2a; /* Texto rojo oscuro al pasar el ratón */
+  }
+  
+  .contact-button img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px; /* Espacio entre el icono y el texto del botón */
+  }
+  

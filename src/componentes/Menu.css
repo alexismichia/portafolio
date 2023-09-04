@@ -1,0 +1,33 @@
+/* Menu.css */
+/* Menu.css */
+.menu {
+    position: fixed; /* Establece la posición fija */
+    top: 0; /* Fija el menú en la parte superior de la página */
+    left: 0;
+    width: 99.5%; /* Ocupa todo el ancho de la pantalla */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000; /* Fondo negro */
+    border: 2px solid #ff4646; /* Borde rojo oscuro en todo el componente */
+    padding: 10px 0;
+    z-index: 1000; /* Asegura que el menú esté en la parte superior */
+  }
+  
+  /* Resto del estilo del menú */
+  
+  
+  .menu button {
+    background-color: transparent;
+    color: #fff; /* Texto blanco */
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+  }
+  
+  .menu button:hover {
+    background-color: #ff4646; /* Fondo rojo oscuro al pasar el ratón */
+  }
+  

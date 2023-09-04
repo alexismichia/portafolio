@@ -1,0 +1,69 @@
+/* Projects.css */
+#projects h2 {
+    color: #fff; /* Cambia el color del texto a blanco */
+  }
+.projects-list {
+    display: flex;
+    flex-wrap: wrap; /* Los proyectos se envolverán a la siguiente fila automáticamente */
+    gap: 20px; /* Espacio entre proyectos */
+  }
+  
+  .project {
+    flex: 1; /* Los proyectos se expandirán para ocupar el espacio disponible */
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados para el recuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border: 2px solid #ff4646; /* Borde rojo oscuro */
+    text-align: left;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .project ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+ 
+
+  /* Projects.css */
+/* ... (otros estilos) */
+
+.github-link {
+    display: flex;
+    align-items: center;
+    background-color: #ff4646; /* Fondo blanco */
+    color: white; /* Texto negro */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px; /* Espacio entre el párrafo y el enlace */
+    transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+  }
+  
+  .github-link:hover {
+    background-color: #cc0000; /* Fondo negro al pasar el ratón */
+    /* Texto blanco al pasar el ratón */
+  }
+  
+  .github-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    background-color: #fff; /* Fondo blanco para hacer el ícono visible en fondos oscuros */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Hace que el fondo del ícono sea circular */
+  }
+  
+  

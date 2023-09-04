@@ -1,0 +1,27 @@
+/* About.css */
+.container {
+    max-width: 800px; /* Ajusta el ancho máximo según tu preferencia */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados para el recuadro */
+    box-shadow: 0 4px 8px rgba(255, 2, 2, 0.2); /* Sombra suave */
+    text-align: left;
+    border: solid #ff4646
+  }
+  
+  .about-content h2 {
+    font-size: 24px;
+  }
+  
+  .about-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
